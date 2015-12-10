@@ -1,0 +1,25 @@
+Ausgewählte Rennstrecken die in FastestLap genutzt werden.
+Amalfi Coast,Full Circuit,Full Circuit Reverse
+Benchmark High Speed Ring,Speedway,Speedway Reverse,Layout A,Layout B,Layout C,Layout D,Layout E,Layout F,Layout A Reverse,Layout B Reverse,Layout C Reverse,Layout D Reverse,Layout E Reverse,Layout F Reverse,Drag 1/4-mile,Drag 1/2-mile
+Camino Viejo de Montserrat,Full Circuit
+Circuit de Catalunya,Grand Prix Circuit
+Fujimi Kaido,Full Circuit
+Iberian International Circuit,Full Circuit
+Ladera Test Track,Full Circuit
+Le Mans Circuit de la Sarthe,Full Circuit,Old Mulsanne Circuit
+Maple Valley Raceway,Full Circuit
+Mazda Raceway Laguna Seca,Full Circuit
+Mugello Autodromo Internazionale,Full Circuit
+New York Circuit,Full Circuit
+Nürburgring Nordschleife,Full Circuit
+Rally di Positano,Full Circuit
+Road America,Full Circuit
+Road Atlanta,Full Circuit
+Sebring International Raceway,Full Circuit
+Sedona Raceway Park,Full Circuit
+Sidewinder Proving Grounds,Layout I,Layout H,Layout G
+Silverstone Racing Circuit,Silverstone Grand Prix Circuit,Silverstone International Circuit,Silverstone National Circuit
+Sunset Penisula Raceway,Full Circuit
+Suzuka Circuit,Full Circuit
+Tsukuba Circuit,Full Circuit
+Twin Ring Motegi,Full Circuit

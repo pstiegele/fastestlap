@@ -1,0 +1,9 @@
+Autos stehen im Folgenden in der Order: Hersteller,Name,Klasse,Leistung
+Fiat, Abarth 500 esseesse,E,262
+Alfa Romeo,Brera Italia Independet,E,266
+Renault,Sport Clio V6,D,349
+Vauxhall,VX220 Turbo,C,419
+Subaru,Impreza WRX STi,C,423
+Ford,Focus RS,C,424
+Maserati,GranTurismo,B,435
+BMW,M5 E60,B,455

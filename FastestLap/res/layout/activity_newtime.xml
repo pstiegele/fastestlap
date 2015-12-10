@@ -1,0 +1,134 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".NewtimeActivity" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:id="@+id/llstreckent"
+        android:layout_height="wrap_content" >
+
+        <Spinner
+            android:id="@+id/rennstreckent"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <Spinner
+            android:id="@+id/rennstreckenvariationnt"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llautont"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/llstreckent"
+        android:layout_marginTop="10dp" >
+
+        <Spinner
+            android:id="@+id/herstellernt"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <Spinner
+            android:id="@+id/modellnt"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/rundenzeitnt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/llautont"
+        android:layout_marginTop="20dp"
+        android:text="@string/rundenzeit" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_below="@+id/rundenzeitnt"
+        android:id="@+id/llrundenzeitnt"
+        android:layout_height="wrap_content" >
+
+        <EditText
+            android:id="@+id/minutennt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight=".3"
+            android:ems="10"
+            android:inputType="number" />
+
+        <TextView
+            android:id="@+id/rundenzeitminutennt"
+            android:layout_width="50dip"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:text=":"
+            android:layout_weight=".1" />
+
+        <EditText
+            android:id="@+id/sekundennt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight=".3"
+            android:ems="10"
+            android:inputType="number" />
+
+        <TextView
+            android:id="@+id/rundenzeitsekundennt"
+            android:layout_width="50dip"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_weight=".1"
+            android:text="." />
+
+        <EditText
+            android:id="@+id/millisekundennt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight=".2"
+            android:ems="10"
+            android:inputType="number" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/llrundenzeitnt"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/notizlabelnt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/notiz" />
+
+        <EditText
+            android:id="@+id/notiznt"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:ems="10" >
+
+            <requestFocus />
+        </EditText>
+
+        <Button
+            android:id="@+id/submitrundenzeitnt"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Eintragen" />
+    </LinearLayout>
+
+</RelativeLayout>

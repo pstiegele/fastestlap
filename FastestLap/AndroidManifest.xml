@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="de.paulsapp.fastestlap"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="de.paulsapp.fastestlap.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="de.paulsapp.fastestlap.NewtimeActivity"
+            android:label="@string/title_activity_newtime"
+            android:parentActivityName="de.paulsapp.fastestlap.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="de.paulsapp.fastestlap.MainActivity" />
+        </activity>
+        <activity
+            android:name="de.paulsapp.fastestlap.AddcarActivity"
+            android:label="@string/title_activity_addcar"
+            android:parentActivityName="de.paulsapp.fastestlap.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="de.paulsapp.fastestlap.MainActivity" />
+        </activity>
+    </application>
+
+</manifest>
