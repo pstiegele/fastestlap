@@ -1,0 +1,77 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="de.paulsapp.fastestlap"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+7-->C:\Users\pstiegele\Documents\Workspace\git\fastestlap-github\new\app\src\main\AndroidManifest.xml:7:5-9:41
+8        android:minSdkVersion="14"
+8-->C:\Users\pstiegele\Documents\Workspace\git\fastestlap-github\new\app\src\main\AndroidManifest.xml:8:9-35
+9        android:targetSdkVersion="19" />
+9-->C:\Users\pstiegele\Documents\Workspace\git\fastestlap-github\new\app\src\main\AndroidManifest.xml:9:9-38
+10
+11    <application
+11-->C:\Users\pstiegele\Documents\Workspace\git\fastestlap-github\new\app\src\main\AndroidManifest.xml:11:5-42:19
+12        android:allowBackup="true"
+12-->C:\Users\pstiegele\Documents\Workspace\git\fastestlap-github\new\app\src\main\AndroidManifest.xml:12:9-35
+13        android:debuggable="true"
+14        android:icon="@drawable/ic_launcher"
+14-->C:\Users\pstiegele\Documents\Workspace\git\fastestlap-github\new\app\src\main\AndroidManifest.xml:13:9-45
+15        android:label="@string/app_name"
+15-->C:\Users\pstiegele\Documents\Workspace\git\fastestlap-github\new\app\src\main\AndroidManifest.xml:14:9-41
+16        android:testOnly="true"
+17        android:theme="@style/AppTheme" >
+17-->C:\Users\pstiegele\Documents\Workspace\git\fastestlap-github\new\app\src\main\AndroidManifest.xml:15:9-40
+18        <activity
+18-->C:\Users\pstiegele\Documents\Workspace\git\fastestlap-github\new\app\src\main\AndroidManifest.xml:16:9-25:20
+19            android:name="de.paulsapp.fastestlap.MainActivity"
+19-->C:\Users\pstiegele\Documents\Workspace\git\fastestlap-github\new\app\src\main\AndroidManifest.xml:17:13-63
+20            android:label="@string/app_name"
+20-->C:\Users\pstiegele\Documents\Workspace\git\fastestlap-github\new\app\src\main\AndroidManifest.xml:18:13-45
+21            android:screenOrientation="portrait" >
+21-->C:\Users\pstiegele\Documents\Workspace\git\fastestlap-github\new\app\src\main\AndroidManifest.xml:19:13-49
+22            <intent-filter>
+22-->C:\Users\pstiegele\Documents\Workspace\git\fastestlap-github\new\app\src\main\AndroidManifest.xml:20:13-24:29
+23                <action android:name="android.intent.action.MAIN" />
+23-->C:\Users\pstiegele\Documents\Workspace\git\fastestlap-github\new\app\src\main\AndroidManifest.xml:21:17-69
+23-->C:\Users\pstiegele\Documents\Workspace\git\fastestlap-github\new\app\src\main\AndroidManifest.xml:21:25-66
+24
+25                <category android:name="android.intent.category.LAUNCHER" />
+25-->C:\Users\pstiegele\Documents\Workspace\git\fastestlap-github\new\app\src\main\AndroidManifest.xml:23:17-77
+25-->C:\Users\pstiegele\Documents\Workspace\git\fastestlap-github\new\app\src\main\AndroidManifest.xml:23:27-74
+26            </intent-filter>
+27        </activity>
+28        <activity
+28-->C:\Users\pstiegele\Documents\Workspace\git\fastestlap-github\new\app\src\main\AndroidManifest.xml:26:9-33:20
+29            android:name="de.paulsapp.fastestlap.NewtimeActivity"
+29-->C:\Users\pstiegele\Documents\Workspace\git\fastestlap-github\new\app\src\main\AndroidManifest.xml:27:13-66
+30            android:label="@string/title_activity_newtime"
+30-->C:\Users\pstiegele\Documents\Workspace\git\fastestlap-github\new\app\src\main\AndroidManifest.xml:28:13-59
+31            android:parentActivityName="de.paulsapp.fastestlap.MainActivity" >
+31-->C:\Users\pstiegele\Documents\Workspace\git\fastestlap-github\new\app\src\main\AndroidManifest.xml:29:13-77
+32            <meta-data
+32-->C:\Users\pstiegele\Documents\Workspace\git\fastestlap-github\new\app\src\main\AndroidManifest.xml:30:13-32:71
+33                android:name="android.support.PARENT_ACTIVITY"
+33-->C:\Users\pstiegele\Documents\Workspace\git\fastestlap-github\new\app\src\main\AndroidManifest.xml:31:17-63
+34                android:value="de.paulsapp.fastestlap.MainActivity" />
+34-->C:\Users\pstiegele\Documents\Workspace\git\fastestlap-github\new\app\src\main\AndroidManifest.xml:32:17-68
+35        </activity>
+36        <activity
+36-->C:\Users\pstiegele\Documents\Workspace\git\fastestlap-github\new\app\src\main\AndroidManifest.xml:34:9-41:20
+37            android:name="de.paulsapp.fastestlap.AddcarActivity"
+37-->C:\Users\pstiegele\Documents\Workspace\git\fastestlap-github\new\app\src\main\AndroidManifest.xml:35:13-65
+38            android:label="@string/title_activity_addcar"
+38-->C:\Users\pstiegele\Documents\Workspace\git\fastestlap-github\new\app\src\main\AndroidManifest.xml:36:13-58
+39            android:parentActivityName="de.paulsapp.fastestlap.MainActivity" >
+39-->C:\Users\pstiegele\Documents\Workspace\git\fastestlap-github\new\app\src\main\AndroidManifest.xml:37:13-77
+40            <meta-data
+40-->C:\Users\pstiegele\Documents\Workspace\git\fastestlap-github\new\app\src\main\AndroidManifest.xml:30:13-32:71
+41                android:name="android.support.PARENT_ACTIVITY"
+41-->C:\Users\pstiegele\Documents\Workspace\git\fastestlap-github\new\app\src\main\AndroidManifest.xml:31:17-63
+42                android:value="de.paulsapp.fastestlap.MainActivity" />
+42-->C:\Users\pstiegele\Documents\Workspace\git\fastestlap-github\new\app\src\main\AndroidManifest.xml:32:17-68
+43        </activity>
+44    </application>
+45
+46</manifest>
